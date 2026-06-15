@@ -92,7 +92,7 @@ img { max-width: 100%; }
   color: #fff;
   background:
     linear-gradient(135deg, rgba(13,26,43,.93) 0%, rgba(20,37,60,.88) 55%, rgba(31,91,142,.80) 130%),
-    url("/assets/images/hero-bg.jpg") center/cover no-repeat;
+    url("../images/hero-bg.jpg") center/cover no-repeat;
   background-color: $navy-deep;
   overflow: hidden;
 }
