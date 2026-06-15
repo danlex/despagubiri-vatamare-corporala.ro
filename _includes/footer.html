@@ -1,0 +1,36 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-col">
+      <img src="{{ '/assets/images/varzaru-logo.png' | relative_url }}"
+           alt="Cabinet de Avocat VARZARU ION" class="footer-logo" width="300" height="95">
+      <p>Specializați în obținerea despăgubirilor pentru vătămarea corporală suferită de victimele accidentelor auto — daune materiale și daune morale.</p>
+      <p class="footer-assoc">Site asociat:
+        <a href="https://varzaru.ro" target="_blank" rel="noopener">varzaru.ro</a>
+      </p>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p><a href="{{ site.geo.map_url }}" target="_blank" rel="noopener">{{ site.geo.street }}, {{ site.geo.locality }}</a></p>
+      <p><a href="tel:{{ site.contact.phone_href }}">{{ site.contact.phone }}</a></p>
+      <p><a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a></p>
+      <div class="footer-social">
+        {% for s in site.social %}<a href="{{ s.url }}" target="_blank" rel="noopener" aria-label="{{ s.name }}">{{ s.name }}</a>{% endfor %}
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigare</h4>
+      <p><a href="{{ '/#despagubiri' | relative_url }}">Despăgubiri vătămare corporală</a></p>
+      <p><a href="{{ '/#servicii' | relative_url }}">Servicii</a></p>
+      <p><a href="{{ '/#intrebari' | relative_url }}">Întrebări frecvente</a></p>
+      <p><a href="{{ '/#contact' | relative_url }}">Contact</a></p>
+      <p><a href="{{ '/confidentialitate/' | relative_url }}">Politică de confidențialitate</a></p>
+      <p><a href="{{ '/termeni/' | relative_url }}">Termeni și informații legale</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p class="footer-disclaimer">Informațiile de pe acest site au caracter general și nu constituie consultanță juridică.</p>
+      © 2014-2026 <a href="https://varzaru.ro" target="_blank" rel="noopener">varzaru.ro</a>. Toate drepturile rezervate. Avocat despăgubiri vătămare corporală.
+    </div>
+  </div>
+</footer>

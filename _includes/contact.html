@@ -1,0 +1,40 @@
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <div class="contact-card">
+      <h2>Ați fost victima unui accident auto?</h2>
+      <p class="contact-lead">
+        Analizăm gratuit situația dumneavoastră și vă spunem ce despăgubiri puteți obține.
+        Nu percepem onorariu pentru consultația inițială, iar costurile pentru demararea procedurilor
+        sunt minime. <strong>Sunați sau scrieți-ne pentru o evaluare a cazului.</strong>
+      </p>
+
+      <div class="contact-details">
+        <div class="contact-item">
+          <span class="contact-label">Telefon</span>
+          <a href="tel:{{ site.contact.phone_href }}" class="contact-value">{{ site.contact.phone }}</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">E-mail</span>
+          <a href="mailto:{{ site.contact.email }}" class="contact-value">{{ site.contact.email }}</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Adresă</span>
+          <a href="{{ site.geo.map_url }}" target="_blank" rel="noopener" class="contact-value">{{ site.geo.street }}, {{ site.geo.locality }}</a>
+        </div>
+      </div>
+
+      <div class="contact-actions">
+        <a href="tel:{{ site.contact.phone_href }}" class="btn btn-primary">Sunați acum</a>
+        <a href="mailto:{{ site.contact.email }}" class="btn btn-ghost">Trimiteți un e-mail</a>
+      </div>
+    </div>
+
+    <div class="contact-map">
+      <iframe
+        src="{{ site.geo.map_embed }}"
+        title="Locația cabinetului — {{ site.geo.street }}, {{ site.geo.locality }}"
+        width="100%" height="360" style="border:0;" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>

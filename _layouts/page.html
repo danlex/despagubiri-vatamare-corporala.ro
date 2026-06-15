@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<section class="section legal-page">
+  <div class="container container-narrow">
+    <h1 class="legal-title">{{ page.title }}</h1>
+    {% if page.updated %}<p class="legal-updated">Ultima actualizare: {{ page.updated }}</p>{% endif %}
+    <div class="prose legal-body">
+      {{ content }}
+    </div>
+    <p class="legal-back"><a href="{{ '/' | relative_url }}">&larr; Înapoi la pagina principală</a></p>
+  </div>
+</section>

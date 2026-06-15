@@ -1,0 +1,93 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["LegalService", "Attorney"],
+  "@id": "{{ site.url }}/#cabinet",
+  "name": "{{ site.contact.name }}",
+  "description": "{{ site.description | strip_newlines | strip }}",
+  "url": "{{ site.url }}/",
+  "logo": "{{ site.url }}{{ site.logo }}",
+  "image": "{{ site.url }}{{ site.logo }}",
+  "telephone": "{{ site.contact.phone_href }}",
+  "email": "{{ site.contact.email }}",
+  "currenciesAccepted": "RON, EUR",
+  "knowsLanguage": ["ro", "en", "es"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ site.geo.street }}",
+    "addressLocality": "{{ site.geo.locality }}",
+    "addressRegion": "{{ site.geo.region_name }}",
+    "postalCode": "{{ site.geo.postal_code }}",
+    "addressCountry": "{{ site.geo.country }}"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ site.geo.latitude }},
+    "longitude": {{ site.geo.longitude }}
+  },
+  "hasMap": "{{ site.geo.map_url }}",
+  "areaServed": [{% for a in site.geo.area_served %}{ "@type": "AdministrativeArea", "name": "{{ a }}" }{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "knowsAbout": [{% for k in site.knows_about %}"{{ k }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],
+  "founder": {
+    "@type": "Person",
+    "name": "Ion Vărzaru",
+    "jobTitle": "Avocat",
+    "knowsLanguage": ["ro", "en", "es"],
+    "memberOf": { "@type": "Organization", "name": "Baroul București" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Facultatea de Drept" },
+      { "@type": "EducationalOrganization", "name": "Institutul Național pentru Pregătirea și Perfecționarea Avocaților" }
+    ]
+  },
+  "sameAs": [{% for s in site.same_as %}"{{ s }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Am fost victima unui accident auto pe trecerea de pietoni. Ce trebuie să fac?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Formulați o plângere penală pentru ca persoana vinovată să fie trasă la răspundere. Organul de cercetare va solicita Institutului de Medicină Legală stabilirea consecințelor medicale (punerea în primejdie a vieții, infirmitate, zile de îngrijiri medicale, prejudiciu estetic, afectarea capacității de muncă). Dacă au fost necesare peste 90 de zile de îngrijiri medicale sau s-a constatat o infirmitate ori un prejudiciu estetic grav și permanent, cercetarea penală continuă, iar dumneavoastră vă puteți constitui parte civilă."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Am avut 70 de zile de îngrijiri medicale iar poliția a închis dosarul. Ce pot face?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chiar dacă dosarul penal a fost clasat, vă puteți valorifica drepturile pe calea unei acțiuni civile separate, formulată împotriva asigurătorului de răspundere civilă care a emis polița RCA pentru autovehiculul vinovat de producerea accidentului."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Nu am formulat în termen plângere penală și nu am certificat medico-legal. Mai pot obține despăgubiri?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Da. Se pot obține despăgubiri pe calea unei acțiuni civile separate împotriva asigurătorului RCA. În cadrul procesului civil puteți cere instanței o adresă către Institutul de Medicină Legală pentru stabilirea consecințelor medicale, iar instanța poate dispune o expertiză tehnică auto pentru stabilirea vinovăției."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Sunt victima unui accident. Ce pot să obțin ca despăgubiri?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Despăgubirile se împart în daune materiale (sumele cheltuite și câștigul nerealizat, acordate în măsura dovedirii lor) și daune morale (reparația suferinței de ordin psihic). Un avocat specializat poate dovedi cât mai complet prejudiciul suferit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Dacă într-un accident a decedat fratele unei persoane, poate obține despăgubiri și aceasta, alături de copiii celui decedat?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Da. Conform art. 1391 Cod civil, instanța poate acorda despăgubiri ascendenților, descendenților, fraților, surorilor și soțului pentru durerea încercată prin moartea victimei. Atât copiii, cât și fratele celui decedat pot solicita despăgubiri."
+      }
+    }
+  ]
+}
+</script>

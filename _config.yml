@@ -1,0 +1,80 @@
+title: "Despăgubiri Vătămare Corporală"
+tagline: "Avocat vătămare corporală din accidente auto"
+description: >-
+  Despăgubirile pentru vătămarea corporală suferită reprezintă totalitatea
+  sumelor de bani la care au dreptul victimele unui accident: sumele cheltuite,
+  câștigul nerealizat și daunele morale. Avocat specializat în obținerea
+  despăgubirilor pentru victimele accidentelor auto. Consultație juridică gratuită.
+lang: ro
+locale: ro_RO
+url: "https://despagubiri-vatamare-corporala.ro"
+baseurl: ""
+author: "Cabinet de Avocat VARZARU ION"
+logo: "/assets/images/varzaru-logo.png"
+
+# Contact details reused across the page
+contact:
+  name: "Cabinet de Avocat VARZARU ION"
+  lawyer: "Avocat Ion Vărzaru"
+  phone: "0788.55.00.57"
+  phone_href: "+40788550057"
+  email: "office@varzaru.ro"
+
+# Geo / local business signals (SEO + GEO)
+geo:
+  street: "Strada Bibescu Vodă 1, Sector 4"
+  locality: "București"
+  region: "B"          # ISO 3166-2 county code for Bucharest
+  region_name: "București"
+  postal_code: "040151"
+  country: "RO"
+  latitude: 44.4256119
+  longitude: 26.1027565
+  map_url: "https://www.google.com/maps/place/Strada+Bibescu+Vod%C4%83+1,+Bucure%C8%99ti+040151"
+  map_embed: "https://maps.google.com/maps?q=Strada%20Bibescu%20Vod%C4%83%201%2C%20Sector%204%2C%20Bucure%C8%99ti&t=m&z=16&output=embed&iwloc=near"
+  area_served:
+    - "România"
+    - "București"
+    - "Uniunea Europeană"
+
+# Social profiles (footer links + sameAs entity signals)
+social:
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com/in/ion-varzaru-061400267/"
+  - name: "Instagram"
+    url: "https://www.instagram.com/cabinet_de_avocat_varzaru_ion/"
+  - name: "Facebook"
+    url: "https://www.facebook.com/people/Cabinet-de-Avocat-Varzaru-Ion/100054661290146/"
+
+# Topics the practice is an authority on (entity signals for GEO)
+knows_about:
+  - "Despăgubiri vătămare corporală"
+  - "Avocat vătămare corporală"
+  - "Despăgubiri accidente auto"
+  - "Daune materiale"
+  - "Daune morale"
+  - "Vătămare corporală din culpă"
+  - "Drept succesoral"
+
+# Entity links (related firm site + social profiles) → schema sameAs
+same_as:
+  - "https://varzaru.ro"
+  - "https://avocat-asigurari-rca.ro"
+  - "https://www.linkedin.com/in/ion-varzaru-061400267/"
+  - "https://www.instagram.com/cabinet_de_avocat_varzaru_ion/"
+  - "https://www.facebook.com/people/Cabinet-de-Avocat-Varzaru-Ion/100054661290146/"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - content/
+  - vendor/

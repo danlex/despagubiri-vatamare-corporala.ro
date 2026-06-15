@@ -1,0 +1,24 @@
+<header class="site-header" id="top">
+  <div class="container header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Cabinet de Avocat VARZARU ION">
+      <img src="{{ '/assets/images/varzaru-logo.png' | relative_url }}"
+           alt="Cabinet de Avocat VARZARU ION" class="brand-logo" width="300" height="95">
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Meniu"><span></span></label>
+
+    <nav class="site-nav">
+      <a href="{{ '/#despagubiri' | relative_url }}">Despăgubiri</a>
+      <a href="{{ '/#servicii' | relative_url }}">Servicii</a>
+      <a href="{{ '/#despre' | relative_url }}">Despre</a>
+      <a href="{{ '/#intrebari' | relative_url }}">Întrebări frecvente</a>
+      <a href="{{ '/#testimoniale' | relative_url }}">Testimoniale</a>
+      <a href="{{ '/#contact' | relative_url }}" class="nav-cta">Contact</a>
+    </nav>
+
+    <div class="header-contact">
+      <a href="tel:{{ site.contact.phone_href }}" class="header-phone">{{ site.contact.phone }}</a>
+    </div>
+  </div>
+</header>

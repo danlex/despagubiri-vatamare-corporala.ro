@@ -1,0 +1,46 @@
+---
+layout: none
+permalink: /llms.txt
+---
+# Cabinet de Avocat VARZARU ION (Despăgubiri Vătămare Corporală)
+
+> Cabinet de avocatură din București specializat în obținerea despăgubirilor pentru
+> vătămarea corporală suferită de victimele accidentelor auto. Reprezintă victimele și
+> familiile acestora pentru obținerea de daune materiale și daune morale. Consultația
+> juridică este gratuită.
+
+## Date de contact
+- Cabinet: Cabinet de Avocat VARZARU ION
+- Avocat: Ion Vărzaru (Baroul București, din 2004)
+- Telefon: {{ site.contact.phone }}
+- E-mail: {{ site.contact.email }}
+- Zonă deservită: București, România și cauze cu element de extraneitate
+- Limbi: română, engleză, spaniolă
+
+## Domenii de specializare
+- Despăgubiri pentru vătămarea corporală din accidente auto
+- Daune materiale (sume cheltuite, câștig nerealizat, acordate în măsura dovedirii)
+- Daune morale (repararea suferinței de ordin psihic)
+- Constituire ca parte civilă în procesul penal
+- Acțiune civilă separată împotriva asigurătorului RCA
+- Drept succesoral și despăgubiri pentru rudele victimei decedate
+
+## Pagini
+- [Acasă]({{ site.url }}/): prezentarea cabinetului și a serviciilor
+- [Despăgubiri vătămare corporală]({{ site.url }}/#despagubiri): ce sunt și cum se obțin
+- [Servicii]({{ site.url }}/#servicii): daune materiale, daune morale, parte civilă, acțiune civilă
+- [Despre avocat Ion Vărzaru]({{ site.url }}/#despre): experiență și calificări
+- [Întrebări frecvente]({{ site.url }}/#intrebari): răspunsuri juridice pentru victimele accidentelor
+- [Testimoniale]({{ site.url }}/#testimoniale): experiențe ale clienților
+- [Contact]({{ site.url }}/#contact): telefon și e-mail
+
+## Întrebări frecvente (rezumat)
+- Victimă pe trecerea de pietoni: formulați plângere penală; IML stabilește consecințele medicale; vă puteți constitui parte civilă.
+- Dosar penal clasat (70 de zile de îngrijiri): drepturile se pot valorifica printr-o acțiune civilă separată împotriva asigurătorului RCA.
+- Fără plângere penală / fără certificat medico-legal: despăgubirile sunt posibile pe cale civilă; instanța poate dispune expertize.
+- Tipuri de despăgubiri: daune materiale + daune morale.
+- Deces în accident: art. 1391 Cod civil permite despăgubiri rudelor (inclusiv frați) și copiilor victimei.
+
+## Note
+- Site informativ; nu înlocuiește o consultație juridică individualizată.
+- Cabinet asociat: https://varzaru.ro
