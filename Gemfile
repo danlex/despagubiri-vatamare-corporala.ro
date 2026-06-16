@@ -9,6 +9,7 @@ gem "jekyll", "~> 4.3"
 group :jekyll_plugins do
   gem "jekyll-sitemap"   # generates /sitemap.xml
   gem "jekyll-seo-tag"   # canonical, Open Graph, Twitter cards, JSON-LD org
+  gem "jekyll-redirect-from"  # static redirect stubs for old (pre-rebuild) URLs
 end
 
 # Windows / JRuby timezone data (harmless elsewhere)

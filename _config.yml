@@ -71,6 +71,7 @@ permalink: pretty
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile
